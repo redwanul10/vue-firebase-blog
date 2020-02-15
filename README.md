@@ -1,24 +1,11 @@
-# vuetest
+# Created Blog With Vue + Firebase
+[Demo](https://vue-firebase-blog.netlify.com/)
 
-## Project setup
-```
-yarn install
-```
+### Features
+1. Login
+2. Registration
+3. Reset Password
+4. Delete,Publish,Edit Post Using Rich Text Editor
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
