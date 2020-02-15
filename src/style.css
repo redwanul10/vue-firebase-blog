@@ -1,0 +1,446 @@
+div#app nav a {
+    color: white;
+    font-weight: bold;
+}
+nav{
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+    z-index: 2;
+}
+ul{
+    margin:0 !important;
+    padding:0 
+}
+nav ul{
+    padding-bottom: 8px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{}
+
+.navbar-brand img{
+    width: 64px;
+}
+
+.form-control{
+    background-image: linear-gradient(0deg,#45cafc 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+
+.loginForm,.registerForm{
+    text-align: left;
+    padding: 30px;
+}
+.registerForm{
+    margin-top: 29px;
+}
+.space{
+    padding-top: 68px;
+    
+}
+
+.titleInput{
+    width: 100%;
+    padding: 6px;
+    padding-left: 22px;
+    font-size: 25px;
+    margin-bottom: 55px;
+    outline:none
+}
+
+
+/* Table */
+table#customers {
+    width: 100%;
+}
+
+th{
+    text-transform: uppercase
+}
+
+th,td {
+    padding: 10px 19px;
+}
+
+table tr:nth-child(even) {/* background: lightgray; */}
+
+tr:hover td:not(.edit) {
+    background: #009688;
+    color: white;
+}
+
+.profile{
+    width: 79px;
+    border-radius: 50%;
+}
+
+.adminPanel{
+    background-color: rgba(45,62,72,1);
+    padding: 24px 6px;
+    width: 264px;
+    height: 90vh;
+    position: fixed;
+    top: 119px;
+    left: -219px;
+    transition: all 1s
+}
+.adminPanel a{
+    text-decoration: none;
+    color: white
+}
+.barIcon{
+    position: absolute;
+    top: 11px;
+    right: 15px;
+}
+.barIcon i{
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+.toggleAdminBar{
+    left: 0px !important;
+}
+.list-group-item {
+    color: white;
+    font-size: 15px;
+}
+
+.adminPanel li.list-group-item:hover {
+    background: white;
+}
+.adminPanel li.list-group-item:hover a{
+    color: black;
+}
+
+.list-group-item i{
+    margin-right: 11px !important;
+}
+i {
+    margin-top: -2px;
+}
+
+.letterAvatar {
+    border-radius: 50%;
+    margin: 50px 0;
+    box-shadow: 0px 0px 1px 2px #ccc;
+}
+
+.user{
+    margin-top: 7px;
+}
+
+.user img {
+    border-radius: 50%;
+
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+
+@keyframes spinner-border {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.loadingWrapper{
+    width:100%;
+    text-align: center
+}
+
+.full_width{
+    width: 100%
+}
+
+.featured_image img {
+    width: 199px;
+    display: block;
+    margin: 25px 0;
+}
+
+.onTapLogin{
+    margin-top: 22px;
+    padding: 12px;
+}
+
+.featuredImage img {
+    height: 90vh;
+    width: 100%;
+}
+
+.singleBlog h1{
+    margin-top: 49px;
+    margin-bottom: 22px;
+    font-weight: 300;
+    
+}
+
+.content p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+.title input,.excerpt input{
+    background: transparent;
+    border: 1px solid #ccc;
+}
+div#quill-container p {
+    margin: 20px 0;
+}
+
+div#quill-container {
+    height: 300px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%
+}
+
+.BUTTON{
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 31px;
+    display: inline-block;
+    margin: 24px 0;
+    cursor:pointer
+}
+
+.content img {
+    margin: 25px 0;
+    max-width:100%
+}
+
+.excerpt {
+    margin-top: 40px;
+}
+.excerpt label{
+    font-weight: bold;
+}
+.excerpt textarea{
+    width:100%
+}
+.error{
+    color: red;
+}
+
+.ql-align-left{
+    text-align:left
+}
+.ql-align-right{
+    text-align: right   
+}
+.ql-align-center{
+    text-align: center   
+}
+
+.homePage{
+    background: url(../public/images/v.jpg) center center /cover;
+    color: white;
+    text-align: center;
+}
+.homePage::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #01112B;
+    opacity: 0.4;
+}
+.relative{
+    position: relative;
+    height: 82vh;
+}
+.text-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%
+}
+.text-content h1{
+    text-transform: capitalize;
+}
+.text-content h1:first-child{
+    font-size: 55px;
+}
+.accountPage .user{
+    margin: 16px 55px;
+}
+
+.account{
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+}
+.accountPage ul{
+    margin:0;
+    padding:0;
+    padding: 0 25px;
+}
+.accountPage ul li {
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 7px;
+    position: relative;
+}
+.accountPage ul li span{}
+.accountPage ul li span:first-child{}
+
+.accountPage i {
+    font-size: 19px;
+    position: absolute;
+    right: 0px;
+    padding: 4px;
+    cursor: pointer;
+    top: -5px;
+}
+.camera{
+    top: 35px !important;
+    right: 53px !important;
+}
+.accountPage ul input {
+    text-align: center
+}
+.hide{
+    display: none
+}
+.circle_border img{
+    border: 3px solid white;
+}
+td.edit a {
+    margin-right: 8px;
+}
+
+.accountPage ul li div{
+    width: 75%;
+    margin: 0 auto
+}
+.mt-6{
+    margin-top: 6px;
+}
+.notFound h1 {
+    font-size: 118px;
+}
+.notFound{
+    padding-top: 100px;
+}
+
+
+/* ========================================= */
+/*               Responsive Css */
+/* ========================================= */
+
+@media (max-width:768px){
+    .singleBlog h1{
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+    .content p{
+        font-size: .875rem;
+    }
+    .featuredImage img {
+        height: 50vh;
+    }
+    .text-content h1:first-child {
+        font-size: 36px;
+    }
+    .text-content h1{
+        font-size: 27px;
+    }
+    td.edit a {
+        margin-bottom: 11px;
+        display: inline-block;
+    }
+    .adminPanel {
+        left: -227px;
+    }
+    .barIcon {
+        right: 9px;
+    }
+    .small_size{
+        font-size: 23px;
+    }
+    .accountPage h2{
+        font-size: 24px;
+    }
+    .accountPage ul li {
+        font-size: 14px;
+    }
+    .author_posts {
+        overflow-y: hidden;
+    }
+    table#customers {
+       overflow: scroll
+    }
+    .accountPage i {
+        right: -14px;
+    }
+    .user img {
+        width: 50px;
+    }
+    .accountPage  .form-group label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px){
+    .accountPage ul li div{
+        width: 85%;
+    }
+    .text-content h1:first-child {
+        font-size: 33px;
+    }
+    .text-content h1 {
+        font-size: 24px;
+    }
+    .featuredImage img {
+        height: 243px;
+    }
+    .singleBlog h1 {
+        font-size: 1.5rem;
+    }
+    .barIcon {
+        top: 52px;
+    }
+    .featured_image{
+        overflow: hidden;
+    }
+}
+
+@media (max-width:310px){
+    .accountPage ul li div{
+        width: 161px;
+    }
+}
+
